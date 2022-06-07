@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+.surface{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFF;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 360px;
+  width: 1440px;
+  height: 80px;
+}
+
+.nav{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #1D1F22;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 28.5px 16px;
+  border: none;
+}
+ul li a:hover{
+  color: #5ECE7B;
+  font-weight: 600;
+  border-bottom: 2px solid #5ECE7B;
+}
+
+.nav--buttons{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 80px;
+}
+.currency{
+  border: none;
+  
+}
+.active{
+  color: #5ECE7B;
+  font-weight: 600;
+  border-bottom: 2px solid #5ECE7B;
+}
+
+.active-navbar{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFF;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 360px;
+  width: 1440px;
+  height: 80px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px rgba(168, 172, 176, 0.19);
+}
